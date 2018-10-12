@@ -1,4 +1,6 @@
 - **<u>Tari Labs University - Contents</u>**
+  - [my-mermaid-test-file-1](my-markdown-1/my-file-1.md)
+    - [my-mermaid-test-file-2](my-markdown-2/my-file-2.md)
   - [Cryptography](./cryptography/cryptography.md)
     - [Elliptic curves 101](cryptography/crypto-1/sources/PITCHME.link.md)
     - [Introduction to Schnorr signatures](./cryptography/digital_signatures/introduction.md)
@@ -22,3 +24,7 @@
     - [Lightning Network for Dummies](protocols/lightning-network-for-dummies/sources/PITCHME.link.md)
     - [Introduction to SPV, Merkle Trees and Bloom Filters](protocols/merkle-trees-and-spv-1/sources/PITCHME.link.md)
     - [The RGB Protocol - An Introduction](protocols/rgb-introduction/sources/PITCHME.link.md)
+
+- [my-mermaid-test-file-3](my-markdown-3/my-file-3.md)
+  - [my-mermaid-test-file-4](my-markdown-4/my-file-4.md)
+
