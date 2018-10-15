@@ -1,4 +1,5 @@
 - **<u>Tari Labs University - Contents</u>**
+- [Introduction](README.md)
   - [firefox-data-docs test 1 (in subfolder)](firefox-data-docs/data_pipeline_detail.md)
   - [firefox-data-docs test 1](data_pipeline_detail.md)
   - [firefox-data-docs test 2 (in subfolder)](firefox-data-docs/data_pipeline.md)

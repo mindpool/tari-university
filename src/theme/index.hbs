@@ -29,6 +29,9 @@
         {{#each additional_css}}
         <link rel="stylesheet" href="{{ this }}">
         {{/each}}
+        
+        <!-- Mermaid -->
+        <link rel="stylesheet" href="{{ path_to_root }}mermaid.css">
 
         {{#if mathjax_support}}
         <!-- MathJax -->
@@ -37,7 +40,7 @@
           MathJax.Hub.Config({
             tex2jax: {
             inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-            displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+            displayMath: [ ['$$','$$'], ["\\[","\\]"], ["\n\\[","\\]\n"] , ["\r\n\\[","\\]\r\n"] ],
             processEscapes: true
             }
           });
@@ -246,6 +249,10 @@
         {{#each additional_js}}
         <script type="text/javascript" src="{{ path_to_root }}{{this}}"></script>
         {{/each}}
+        
+        <!-- Mermaid -->
+        <script src="{{ path_to_root }}mermaid.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="{{ path_to_root }}mermaid-init.js" type="text/javascript" charset="utf-8"></script>
 
         {{#if is_print}}
         {{#if mathjax_support}}
