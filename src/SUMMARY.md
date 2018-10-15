@@ -1,6 +1,8 @@
 - **<u>Tari Labs University - Contents</u>**
   - [my-mermaid-test-file-1](my-markdown-1/my-file-1.md)
     - [my-mermaid-test-file-2](my-markdown-2/my-file-2.md)
+    - [firefox-data-docs test 1](data_pipeline_detail.md)
+    - [firefox-data-docs test 2](data_pipeline.md)
   - [Cryptography](./cryptography/cryptography.md)
     - [Elliptic curves 101](cryptography/crypto-1/sources/PITCHME.link.md)
     - [Introduction to Schnorr signatures](./cryptography/digital_signatures/introduction.md)
